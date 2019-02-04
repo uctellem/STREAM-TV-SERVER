@@ -29,7 +29,7 @@ Lecteur de sur serveur: http://strmtvserver.tech/player/play.php?play=http://str
 - Demarer Nginx en foreground:
 /usr/local/nginx/sbin/nginx -g 'daemon off;'
 
-- Tester le dichier de configuration et relancer Nginx:
+- Tester le fichier de configuration et relancer Nginx:
 /usr/local/nginx/sbin/nginx -t && nginx -s reload
 
 - Arreter Nginx:
