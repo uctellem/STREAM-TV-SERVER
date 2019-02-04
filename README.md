@@ -5,8 +5,11 @@ Serveur de Streaming simple et robuste.
 
 
 Executer les commandes suivante pour installer le Serveur:
+
 sudo -s
+
 apt-get install curl -y
+
 curl -sL https://raw.githubusercontent.com/uctellem/STREAM-TV-SERVER/master/install.sh | sudo bash -
 
 
