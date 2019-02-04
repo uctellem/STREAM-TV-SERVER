@@ -10,7 +10,7 @@ mkdir ~/working/ngx_devel_kit
 mkdir ~/working/set-misc-nginx-module
 mkdir ~/working/nginx
 mkdir ~/working/nginx-hmac-secure-link
-git clone https://github.com/upggr/IELKO-MEDIA-SERVER.git ~/working/UC-TELLEM
+git clone https://github.com/uctellem/STREAM-TV-SERVER.git ~/working/UC-TELLEM
 git clone https://github.com/sergey-dryabzhinsky/nginx-rtmp-module.git ~/working/nginx-rtmp-module
 git clone https://github.com/openresty/set-misc-nginx-module.git ~/working/set-misc-nginx-module
 git clone https://github.com/simpl/ngx_devel_kit.git ~/working/ngx_devel_kit
