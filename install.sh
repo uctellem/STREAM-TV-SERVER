@@ -27,9 +27,11 @@ cp ~/working/UC-TELLEM/conf/nginx.conf /usr/local/nginx/conf/nginx.conf
 cp ~/working/UC-TELLEM/conf/nginx.service /etc/init.d/nginx
 sudo chmod +x /etc/init.d/nginx
 sudo /usr/sbin/update-rc.d -f nginx defaults
+ufw allow 22
 ufw allow 8080
 ufw allow 80
 ufw allow 1935
+iptables -I INPUT -p tcp --dport 22 -j ACCEPT
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 iptables -I INPUT -p tcp --dport 1935 -j ACCEPT
 iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
