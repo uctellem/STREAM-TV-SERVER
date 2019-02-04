@@ -20,27 +20,27 @@ Lecteur de sur serveur: http://strmtvserver.tech/player/play.php?play=http://str
 
 ++++ Commandes Utiles ++++
 
-- Teste du fichier de configuration
+- Teste du fichier de configuration:
 /usr/local/nginx/sbin/nginx -t
 
-- Demarer Nginx en background
+- Demarer Nginx en background:
 /usr/local/nginx/sbin/nginx
 
-- Demarer Nginx en foreground
+- Demarer Nginx en foreground:
 /usr/local/nginx/sbin/nginx -g 'daemon off;'
 
-- Tester le dichier de configuration et relancer Nginx
+- Tester le dichier de configuration et relancer Nginx:
 /usr/local/nginx/sbin/nginx -t && nginx -s reload
 
-- Arreter Nginx
+- Arreter Nginx:
 /usr/local/nginx/sbin/nginx -s stop
 
-- Repertoire html
+- Repertoire html:
 /usr/local/nginx/html
 
-- Mise a jour du lecteur
+- Mise a jour du lecteur:
 cd /usr/local/nginx/html/player
 git pull
 
-- Fichier de configuration nginx.conf
+- Fichier de configuration nginx.conf:
 nano /usr/local/nginx/conf/nginx.conf
