@@ -3,7 +3,7 @@
 sudo apt-get install -y software-properties-common
 sudo apt-get update -y
 sudo add-apt-repository ppa:ondrej/php
-sudo apt-get install zlib1g-dev livestreamer build-essential libpcre3 libpcre3-dev libssl-dev  libpcre3 git php7.2-cli php7.2-curl php7.2-dev php7.2-fpm php7.2-gd php7.2-mysql php7.2-mcrypt php7.2-opcache php-mbstring php7.2-mbstring php7.2-sybase libsybdb5 php-gettext -y
+sudo apt-get install livestreamer build-essential libpcre3 libpcre3-dev libssl-dev  libpcre3 git zlib1g-dev php7.0-cli php7.0-curl php7.0-dev php7.0-fpm php7.0-gd php7.0-mysql php7.0-mcrypt php7.0-opcache php-mbstring php7.0-mbstring php7.0-sybase libsybdb5 php-gettext -y
 mkdir ~/working
 mkdir ~/working/IELKO
 mkdir ~/working/nginx-rtmp-module
